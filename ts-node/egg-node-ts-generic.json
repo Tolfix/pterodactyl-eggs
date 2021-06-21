@@ -12,7 +12,7 @@
         "docker.io/tolfixorg/ts-node"
     ],
     "file_denylist": [],
-    "startup": "/usr/local/bin/npm install && tsc && /usr/local/bin/node /home/container/{{BOT_JS_FILE}}",
+    "startup": "/usr/local/bin/node /home/container/{{BOT_JS_FILE}}; tsc; /usr/local/bin/npm install",
     "config": {
         "files": "{}",
         "startup": "{\r\n    \"done\": \"change this part\"\r\n}",
