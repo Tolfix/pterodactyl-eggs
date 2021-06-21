@@ -9,7 +9,7 @@
     "description": "An application for node with typescript",
     "features": null,
     "images": [
-        "docker.io/tolfx/ts-node"
+        "docker.io/tolfixorg/ts-node"
     ],
     "file_denylist": [],
     "startup": "/usr/local/bin/npm install && tsc && /usr/local/bin/node /home/container/{{BOT_JS_FILE}}",
