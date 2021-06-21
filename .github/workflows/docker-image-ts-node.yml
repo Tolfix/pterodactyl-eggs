@@ -21,8 +21,8 @@ jobs:
         run: |
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
       - name: Build the Docker image
-        run: |
-        cd ./ts-node
-        docker build . --file Dockerfile --tag tolfixorg/ts-node:latest
+        working-directory: ./ts-node
+        run: docker build . --file Dockerfile --tag tolfixorg/ts-node:latest
       - name: Docker push
+        working-directory: ./ts-node
         run: docker push tolfixorg/ts-node
