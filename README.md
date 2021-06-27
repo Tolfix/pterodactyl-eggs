@@ -1,3 +1,9 @@
+<p align="center">
+  <img width="260" src="https://cdn.tolfix.com/images/TX-Small.png">
+  <br/>
+  Pterodactyl eggs
+</p>
+
 # Pterodactyl eggs
 Custom made eggs provided by `Tolfix` for **Pterodactyl**
 
